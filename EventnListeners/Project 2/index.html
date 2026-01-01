@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second project using event listeners</title>
+    <style>
+        *{
+            margin: 0 ;
+            padding: 0 ;
+            box-sizing: border-box ;
+            font-family: cursive;
+        }
+
+        html,body{
+            width: 100% ;
+            height: 100%
+        }
+        #main{
+            display: flex;
+            align-items: center; /* brings to centre vertically */
+            justify-content: center; /*birngs to center horizontally*/
+            width: 100%;
+            height: 100%;
+            background-color: #222;
+        }
+        input{
+            display : none;
+
+        }
+        #btn{
+            padding : 12px 22px;
+            background-color: rgb(41, 143,143);
+            color: white ;
+            border-radius: 50px;
+
+        }
+        #btn:hover{
+            background-color: rgb(7, 97, 97) ;
+        }
+    </style>
+</head>
+<body>
+     <div id = "main">
+        <input id="fileinp" type = "file">
+    
+     <div id = "btn">
+        Upload File
+     </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
