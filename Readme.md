@@ -14,6 +14,9 @@ Build muscle memory for vanilla JS events with three tiny demos: a keydown playg
 - Project 1: https://fawahkhan.github.io/Project-1-EventHandlers/
 - Project 2: https://fawahkhan.github.io/Project-2-DOM-and-EventListeners/
 - Project 3: https://fawahkhan.github.io/Project-3-Profile-Card-Generator/
+- Project 4: https://fawahkhan.github.io/Project-4-Interactive-Cursor-Tracker/
+- Project 5: https://fawahkhan.github.io/Project-5-Live-Character-Counter/
+- Project 6: https://fawahkhan.github.io/Project-6-Delegated-Event-Handler-Todo-List/
 
 Note: These were built to get my hands dirty with JS; HTML/CSS is intentionally minimal. I’ll polish the visuals once the core JS essentials are solid.
 
