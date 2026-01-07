@@ -1,0 +1,1 @@
+Delegated event handler on todo list . uses event bubbling to handle event on list items of a todo list .

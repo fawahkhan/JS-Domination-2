@@ -1,0 +1,1 @@
+Live character counter just like we see in twwitter that tell us the number of characters are left and turns red as soon as we exceed the character limit using event listeners . 
