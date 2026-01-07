@@ -1,11 +1,14 @@
-## Event Listener Lab — three micro-projects that react in real time
+## JavaScript Projects — Learning Exercises & Mini-builds
 
-Build muscle memory for vanilla JS events with three tiny demos: a keydown playground, a custom upload button, and a profile card generator. Each one lives in its own folder and runs by simply opening `index.html`.
+A collection of vanilla JavaScript mini-projects built to practice and master core concepts. Each one lives in its own folder and runs by simply opening `index.html`.
 
 ### Projects
 - **Project 1 · Basic Keydown Playground** — Mirrors any pressed key into a giant heading; handles the space bar gracefully.
 - **Project 2 · File Upload Button** — Hides the native file input behind a custom button and swaps its label with the chosen file name.
 - **Project 3 · Profile Card Generator** — Captures form input and instantly renders styled profile cards without page reloads.
+- **Project 4 · Interactive Cursor Tracker** — A red square follows your mouse around the screen; turns yellow on hover using mouse events and smooth CSS transitions.
+- **Project 5 · Live Character Counter** — A Twitter-style character counter that displays remaining characters and turns red when exceeding the 20-character limit.
+- **Project 6 · Delegated Event Handler Todo List** — A fruit list where items toggle strikethrough on click, demonstrating event delegation and event bubbling.
 
 ### Run locally
 1) Clone/download this repo. 2) Open any project folder. 3) Double-click `index.html` (no builds or deps).

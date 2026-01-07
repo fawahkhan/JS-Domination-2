@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f2f2f2;
+}
+
+.container {
+    background: #fff;
+    padding: 25px 30px;
+    width: 350px;
+    border-radius: 8px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group label {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.input-group input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.input-group input:focus {
+    outline: none;
+    border-color: #4a90e2;
+}
+
+.error-msg {
+    font-size: 12px;
+    color: red;
+    margin-top: 4px;
+    visibility: hidden; /* JS will toggle this */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #4a90e2;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #357abd;
+}
+
+/* success & error styles for JS */
+.input-group.success input {
+    border-color: green;
+}
+
+.input-group.error input {
+    border-color: red;
+}
+
+.input-group.error .error-msg {
+    visibility: visible;
+}
+#resultMessage{
+    color: red;
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+    font-size: 15px;
+}
