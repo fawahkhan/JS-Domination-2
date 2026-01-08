@@ -2,6 +2,8 @@
 
 A small login form that checks email format and a strong-ish password with regex. Kept it plain so I remember the basics.
 
+**link** - https://fawahkhan.github.io/Project-7-Email-Password-Validator/
+
 ## What it does
 - Shows a two-field form (email + password) with inline error text.
 - On submit, stops the page reload and runs two regex checks.
