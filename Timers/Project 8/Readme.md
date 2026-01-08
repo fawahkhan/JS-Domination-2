@@ -2,6 +2,8 @@
 
 A quick timer practice: a glassy card shows a download label, fills a blue gradient bar to 100%, and flips the text to "Downloaded" when done. All vanilla HTML/CSS/JS.
 
+**Link** -https://fawahkhan.github.io/Project-8-Downloader-ProgressBar/
+
 ## What this does
 - Shows a glassmorphism-style card centered on the page with a "Downloading..." heading.
 - Animates a gradient bar from 0–100% over ~3 seconds using a `setInterval` tick of 30 ms.
