@@ -1,8 +1,34 @@
-localStorage--> yeh woh jagaha hai jaha hum apne browser me data store kar sakte hai without expiry date
-browser band krne pe bhi data delete nahi hota
 
-local storaage is only and only able to store strings type of data in general. but ham uss array ya kisi bhi aur data type ko json.stringify() krke localStorage me save kr skte hai , fr string se usey wapas laane ke liye json.parse krdenge.    
+## Theme Preference Setter
 
-sessionStorage--> stores the data temporarily , jab tak browser band nahi hota tab tak data rehta hai, browser band krne pe data delete ho jata hai
+Light/dark toggle that honors the OS preference by default and remembers user overrides.
 
-cookies--> yeh bhi data store krta hai and apka data browser ke cookies nam ki property me store hota hai,and cookie concept kam data ya light data ke liye hota hai
+**How it works**
+- Reads the system theme via `matchMedia('(prefers-color-scheme: dark)')`.
+- Button flips the `body` class (light/dark) and saves the choice in `localStorage`.
+- Reacts to OS theme changes only when no saved override exists.
+
+**Use it**
+**link** https://fawahkhan.github.io/Project-9-Theme-Preference-Setter/
+
+- Open [index.html](index.html) and click the toggle.
+
+**Files**
+- [index.html](index.html)
+- [script.js](script.js)
+- [style.css](style.css)
+
+**JS topics used**
+- `matchMedia` with `prefers-color-scheme` to read OS theme and listen for changes.
+- `classList` toggling on `body` for theme application.
+- `localStorage` read/write for persisting the override.
+
+**Nice-to-haves**
+- Toggle text that describes the next action.
+- Expand theme tokens (spacing, component styles) if the project grows.
+
+**Learnings**
+- Respect system defaults first, then layer user intent.
+- Keep theme state centralized via classes instead of scattered style toggles.
+- Persisting simple state in `localStorage` keeps behavior consistent across reloads.
+](https://fawahkhan.github.io/Project-9-Theme-Preference-Setter/)](https://fawahkhan.github.io/Project-9-Theme-Preference-Setter/)
